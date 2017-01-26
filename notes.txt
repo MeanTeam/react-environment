@@ -1,0 +1,29 @@
+npm init -y
+
+npm i -S react react-dom
+
+mkdir source/server.js
+
+webpack: module boundler (require.js, browserify)
+
+npm i -D webpack
+
+mkdir webpack/webpack.server.config.js
+
+install presets:
+(latest-minimal: detect ES2015-ES2017 that node doesn't support and transpile only what it need)
+
+npm i -D babel-core babel-loader babel-preset-latest-minimal babel-preset-react json-loader
+
+install router
+npm i -S react-router@next
+
+End-point API testing
+npm i -S isomorphic-fetch
+
+Client
+npm i -D npm install --save-dev babel-plugin-transform-es2015-modules-commonjs babel-preset-es2016 babel-preset-es2017
+
+Install static server
+npm i -D list
+
